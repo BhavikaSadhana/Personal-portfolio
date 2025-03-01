@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>SadhanaBhavana | Software Trainer</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <div class="container">
+    <!-- Section 1 -->
+    <section class="section-1 center" id="section-1">
+      <h1 class="section-1-heading">
+        Software Trainer
+      </h1>
+      <img src="images/photo.me.jpg" alt="SadhanaBhavana" class="person-img" />
+      <div class="name-container">
+        <h3 class="person-name">SadhanaBhavana</h3>
+      </div>
+      <div id="title-container">
+        <div id="text-name"></div>
+        <div id="cursor"></div>
+      </div>
+      <a href="#section-3" class="section-1-btn">Projects</a>
+    </section>
+    <!-- End of Section 1 -->
+
+    <!-- Navbar -->
+    <nav class="navbar center">
+      <a href="#section-1" class="navbar-link">Home</a>
+      <a href="#section-2" class="navbar-link">About</a>
+      <a href="#section-3" class="navbar-link">Projects</a>
+      <a href="#section-4" class="navbar-link">Contact</a>
+    </nav>
+
+    <!-- End of Navbar -->
+
+    <!-- Section 2 -->
+    <section class="section-2" id="section-2">
+      <h1 class="section-heading section-2-heading">About</h1>
+      <div class="progress-bars-wrapper">
+        <div class="progress-bar">
+          <p class="progress-text">
+            HTML
+            <span></span>%
+          </p>
+          <div class="progress-percent"></div>
+        </div>
+        <div class="progress-bar">
+          <p class="progress-text">
+            CSS
+            <span></span>%
+          </p>
+          <div class="progress-percent"></div>
+        </div>
+        <div class="progress-bar">
+          <p class="progress-text">
+            JavaScript
+            <span></span>%
+          </p>
+          <div class="progress-percent"></div>
+        </div>
+        <div class="progress-bar">
+          <p class="progress-text">
+            AngularJS
+            <span></span>%
+          </p>
+          <div class="progress-percent"></div>
+        </div>
+        <div class="progress-bar">
+          <p class="progress-text">
+            Java
+            <span></span>%
+          </p>
+          <div class="progress-percent"></div>
+        </div>
+
+        <div class="progress-bar">
+          <p class="progress-text">
+            SpringBoot
+            <span></span>%
+          </p>
+          <div class="progress-percent"></div>
+        </div>
+      </div>
+
+      <div class="card-about">
+        <div class="person-info">
+          <div class="card-header">
+            <div class="dot  red  dot--full"></div>
+            <div class="dot  yellow  dot--full"></div>
+            <div class="dot  green  dot--full"></div>
+          </div>
+          
+        </div>
+      </div>
+
+      <!-- Section 3 -->
+      <section class="section-3" id="section-3">
+        <h1 class="section-heading section-3-heading">Projects</h1>
+        <div class="projects-wrapper center">
+          <div class="project">
+            <div class="project-text">
+              <h2 class="project-name">Movie Website</h2>
+              <h4 class="project-technologies">HTML / CSS / JS</h4>
+            </div>
+            <img src="images/screenshot-1.png" class="project-img" />
+            <a href="#" class="project-link" target="_blank">Go to github</a>
+          </div>
+          <div class="project">
+            <div class="project-text">
+              <h2 class="project-name">Code Shutter</h2>
+              <h4 class="project-technologies">Bootstrap </h4>
+            </div>
+            <img src="images/screenshot-2.png" class="project-img" />
+            <a href="#" class="project-link" target="_blank">Go to github</a>
+          </div>
+          
+
+        </div>
+
+  </div>
+  </section>
+  <!-- End of Section 3 -->
+
+  <!-- Section 4 -->
+  <section class="section-4" id="section-4">
+    <h1 class="section-heading section-4-heading">Get in Touch</h1>
+
+    <div class="card-about card-contact-info">
+      <div class="person-info card-contact-info">
+        <div class="card-header card-header-contact-info">
+          <div class="dot  red     dot--full dot-contact-info"></div>
+          <div class="dot  yellow  dot--full dot-contact-info"></div>
+          <div class="dot  green   dot--full dot-contact-info"></div>
+        </div>
+        <h3>Whether you want to get in touch, talk about a project collaboration, or just say hi, I'd love to hear from
+          you.
+          Simply send me an <a class="section-detail-email" href="mailto:bhavana@gmail.com">email</a>.
+          </br></br>
+          </a>
+        </h3>
+      </div>
+    </div>
+  </section>
+  <!-- End of Section 4 -->
+
+  <!-- Section 5 -->
+  <footer class="section-5 center">
+    <div class="social-media">
+      <a href="https://github.com/dev-penny" class="social-media-link">
+        <i class="fab fa-github-square"></i>
+      </a>
+      
+      <a href="https://www.facebook.com" class="social-media-link">
+        <i class="fab fa-facebook-square"></i>
+      </a>
+      <a href="https://www.instagram.com" class="social-media-link">
+        <i class="fab fa-instagram-square"></i>
+      </a>
+    </div>
+    <p class="copyright">
+      Copyright &copy; 2023 SadhanaBhavana. All Rights Reserved.
+    </p>
+  </footer>
+  <!-- End of Section 5 -->
+  </div>
+
+  <script>
+/* Progress bar Effect */
+const navbar = document.querySelector(".navbar");
+const navbarOffsetTop = navbar.offsetTop;
+const sections = document.querySelectorAll("section");
+const navbarLinks = document.querySelectorAll(".navbar-link");
+const progress = document.querySelector(".progress-bars-wrapper");
+const progressBarPercents = [92, 95, 85, 95,90,80];
+
+window.addEventListener("scroll", () => {
+  mainFn();
+});
+
+const mainFn = () => {
+  if (window.pageYOffset >= navbarOffsetTop) {
+    navbar.classList.add("sticky");
+  } else {
+    navbar.classList.remove("sticky");
+  }
+
+  sections.forEach((section, i) => {
+    if (window.pageYOffset >= section.offsetTop - 10) {
+      navbarLinks.forEach((navbarLink) => {
+        navbarLink.classList.remove("change");
+      });
+      navbarLinks[i].classList.add("change");
+    }
+  });
+
+  if (window.pageYOffset + window.innerHeight >= progress.offsetTop) {
+    document.querySelectorAll(".progress-percent").forEach((el, i) => {
+      el.style.width = `${progressBarPercents[i]}%`;
+      el.previousElementSibling.firstElementChild.textContent =
+        progressBarPercents[i];
+    });
+  }
+};
+
+mainFn();
+
+window.addEventListener("resize", () => {
+  window.location.reload();
+});
+
+
+/* Typing and Deleting Effect */
+// List of sentences
+var _CONTENT = [ 
+	"SOFTWARE ENGINEER", 
+	"FULL STACK DEVELOPER", 
+	
+];
+
+var _PART = 0; // Current sentence being processed
+var _PART_INDEX = 0; // Character number of the current sentence being processed 
+var _INTERVAL_VAL; // Holds the handle returned from setInterval
+var _ELEMENT = document.querySelector("#text-name"); // Element that holds the text
+var _CURSOR = document.querySelector("#cursor"); // Cursor element 
+
+// Implements typing effect
+function Type() { 
+	// Get substring with 1 characater added
+	var text =  _CONTENT[_PART].substring(0, _PART_INDEX + 1);
+	_ELEMENT.innerHTML = text;
+	_PART_INDEX++;
+
+	// If full sentence has been displayed then start to delete the sentence after some time
+	if(text === _CONTENT[_PART]) {
+		// Hide the cursor
+		_CURSOR.style.display = 'none';
+
+		clearInterval(_INTERVAL_VAL);
+		setTimeout(function() {
+			_INTERVAL_VAL = setInterval(Delete, 50);
+		}, 1000);
+	}
+}
+
+// Implements deleting effect
+function Delete() {
+	// Get substring with 1 characater deleted
+	var text =  _CONTENT[_PART].substring(0, _PART_INDEX - 1);
+	_ELEMENT.innerHTML = text;
+	_PART_INDEX--;
+
+	// If sentence has been deleted then start to display the next sentence
+	if(text === '') {
+		clearInterval(_INTERVAL_VAL);
+
+		// If current sentence was last then display the first one, else move to the next
+		if(_PART == (_CONTENT.length - 1))
+			_PART = 0;
+		else
+			_PART++;
+		_PART_INDEX = 0;
+
+		// Start to display the next sentence after some time
+		setTimeout(function() {
+			_CURSOR.style.display = 'inline-block';
+			_INTERVAL_VAL = setInterval(Type, 100);
+		}, 200);
+	}
+}
+// Start the typing effect on load
+_INTERVAL_VAL = setInterval(Type, 100);
+
+</script>
+</body>
+
+</html>
